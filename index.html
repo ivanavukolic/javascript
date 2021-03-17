@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>Js</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+<p id="ovaj"> prvi paragraf </p>
+<p> drugi paragraf </p>
+
+<button onclick="PromeniParagraf ():">
+Promeni 
+</button>
+
+<script>
+
+function PromeniParagraf() {
+	let paragraf= document.querySelector("#ovaj");
+	paragraf.innerText = "Novi text";
+	paragraf.style.color="#DC0202";
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
